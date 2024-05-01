@@ -1,0 +1,76 @@
+.overview-card{
+  background-color: #1C204B;
+  border-radius: 20px;
+  min-width: 230px;
+}
+
+.header{
+  padding: 40px;
+  background-color: #5747EA;
+  border-radius: 20px;
+}
+
+.header img {
+  margin-left: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border :2px solid white;
+}
+
+.report-title{
+  color: #BBC0FF;
+  font-size: 15px;
+  line-height: 17.78px;
+  padding-top: 20px;
+}
+
+.sales-title{
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 47.4px;
+  letter-spacing: 12px;
+  max-width: 40px;
+}
+
+ul{
+  list-style: none;
+  color: #7078C9;
+}
+
+li{
+  margin-left: 20px;
+  padding-block: 8px;
+  cursor: pointer;
+}
+
+.active{
+  color: white;
+}
+
+@media  (max-width:999px) {
+ ul{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+ }
+
+ .header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+ }
+
+ .sales-title{
+  font-size: 28px;
+  line-height: 25px;
+ }
+
+ .header img {
+  width: 80px;
+  height: 80px;
+  margin-left: 4px;
+ }
+}

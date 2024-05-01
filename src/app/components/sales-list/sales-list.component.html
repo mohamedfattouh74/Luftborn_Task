@@ -1,0 +1,12 @@
+
+@defer {
+    <div class="container">
+        @for (product of topProducts; track product.id) {
+            <app-card-item [product]='product'></app-card-item>
+        } @empty {
+            <p class="no-items">There are no items.</p>
+        }
+    </div>
+  } @loading (minimum 1s) {
+    <span class="loader"></span>
+  }
