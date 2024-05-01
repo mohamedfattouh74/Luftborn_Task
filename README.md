@@ -1,5 +1,7 @@
 # LuftbornTask
 
+Link of designed Navigation Bar on Figma : https://www.figma.com/file/n7pQWosyTjh4IHxVysuPmY/Luftborn?type=design&node-id=0%3A1&mode=design&t=l2GNnhrrAN7cjTGu-1
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
 ## Development server
